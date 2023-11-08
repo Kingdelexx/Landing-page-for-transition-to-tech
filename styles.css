@@ -576,6 +576,9 @@ nav ul li a {
     .checkbtn {
         display: block;
         color: rgb(240, 126, 126);
+        position: relative;
+        left: -150px;
+        color: #0b2241;
     }
     ul {
         position: fixed;
