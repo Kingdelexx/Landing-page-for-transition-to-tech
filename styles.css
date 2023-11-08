@@ -1,0 +1,987 @@
+*{
+    scroll-behavior: smooth;
+}
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+nav ul li a:hover {
+    color: rgb(15, 15, 217);
+    border-bottom: solid 4px #000;
+    transition: 0.8s ease;
+}
+
+.logo {
+    width: 60px;
+    padding: 0 100px;
+    padding-right: 100px;
+    position: relative;
+    right: 5%;
+}
+
+nav {
+    /* background: #ee4343; */
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px;
+    text-decoration: none;
+}
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* navbar */
+
+
+/* Style the banner section */
+#hero {
+    background-image: url('image/thinking.jpg');
+    height: 50vh;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#hero p {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00a2e8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.container2 {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-right: 700px;
+    padding: 0 20px;
+    color: black;
+}
+/* Style the banner section */
+
+/* write-up */
+.write-up{
+    width: 80%;
+    height: 170px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(72, 36, 213, 0.6));
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+.write-up p{
+    font-size: 25px;
+}
+.write-up p::first-letter{
+    font-size: 70px;
+    color: #00a2e8;
+}
+
+/* write-up */
+
+.footer h4{
+    display: none;
+}
+
+/* About */
+
+#about .container h3{
+    font-size: 30px;
+}
+#about .container p{
+    font-size: 25px;
+}
+#about .container p span{
+    font-size: 30px;
+    color: rgb(15, 15, 217);
+}
+
+/* About */
+
+/* Why-choose-us */
+#why-choose-us {
+    width: 100%;
+    margin-top: 40px;
+} 
+#why-choose-us .container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 5px 0px 0px 30px;
+    
+}
+#why-choose-us .container .p1{
+    width: 45%;
+}
+#why-choose-us .container .p2{
+    width: 45%;
+}
+#why-choose-us .container .p3{
+    width: 45%;
+}
+#why-choose-us .container .p4{
+    width: 45%;
+}
+#why-choose-us h3{
+    color: rgb(3, 3, 82);
+    font-size: 2.5rem;
+    text-align: center;
+} 
+
+#why-choose-us .container p span{
+    color: rgb(3, 3, 82);
+    font-size: 2rem;
+    font-weight: 800; 
+} 
+#why-choose-us .container p{
+    color: rgb(6, 6, 6);
+    font-size: 1.5rem;
+    font-weight: 500; 
+} 
+
+/* Why-choose-us */
+
+/* courses */
+#courses {
+    width: 100%;
+    margin-top: 40px;
+}
+
+#courses h3{
+    color: rgb(3, 3, 82);
+    font-size: 2.5rem;
+    text-align: center;
+}
+#courses .container{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vh;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    justify-content: space-around;
+    background-color: rgb(157, 156, 156);
+}
+#courses .container .frontend{
+    width: 30%;
+}
+#courses .container .frontend h2{
+    color: rgb(3, 3, 82);
+    font-size: 2rem;
+    font-weight: 800; 
+    border-bottom: #f7f1f1 2px solid;
+    width: 200px;
+}
+#courses .container .frontend p{
+    font-size: 1.5rem;
+    font-weight: 600; 
+    padding-top: 10px;
+}
+#courses .container .frontend h4{
+    font-size: 1.3rem;
+    font-weight: 400; 
+}
+#courses .container .backend{
+    width: 30%;
+}
+#courses .container .backend h2{
+    color: rgb(3, 3, 82);
+    border-bottom: #f7f1f1 2px solid;
+    font-size: 2rem;
+    font-weight: 800; 
+    width: 500px;
+}
+#courses .container .backend p{
+    font-size: 1.5rem;
+    font-weight: 600; 
+    padding-top: 10px;
+}
+#courses .container .database{
+    width: 30%;
+}
+#courses .container .database h2{
+    color: rgb(3, 3, 82);
+    border-bottom: #f7f1f1 2px solid;
+    font-size: 2rem;
+    font-weight: 800; 
+    width: 200px;
+}
+#courses .container .database p{
+    font-size: 1.5rem;
+    font-weight: 600; 
+    padding-top: 10px;
+}
+#courses .container .database h4{
+    font-size: 1.3rem;
+    font-weight: 400; 
+}
+/* courses */
+
+/* deliverables */
+
+#deliverables{
+    width: 100%;
+    margin-top: 40px;
+}
+
+#deliverables h3{
+    color: rgb(3, 3, 82);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#deliverables .container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 5px 0px 0px 30px;
+    
+}
+#deliverables .container .p5{
+    width: 45%;
+}
+#deliverables .container .p6{
+    width: 45%;
+}
+#deliverables .container .p7{
+    width: 45%;
+}
+#deliverables .container .p8{
+    width: 45%;
+}
+#deliverables h3{
+    color: rgb(3, 3, 82);
+    font-size: 2.5rem;
+    text-align: center;
+} 
+
+#deliverables .container p span{
+    color: rgb(3, 3, 82);
+    font-size: 2rem;
+    font-weight: 800; 
+} 
+#deliverables .container p{
+    color: rgb(6, 6, 6);
+    font-size: 1.5rem;
+    font-weight: 500; 
+} 
+
+
+/* deliverables */
+
+/* testimonial */
+#testimonial{
+    width: 100%;
+    margin-top: 40px; 
+}
+
+#testimonial h3{
+    color: rgb(3, 3, 82);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#testimonial .container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+#testimonial .container .test1{
+    padding: 10px;
+    width: 400px;
+    height: 450px;
+    border: rgb(3, 3, 82) 1px solid;
+}
+#testimonial .container .test1 h4{
+    font-size: 1.5rem;
+}
+#testimonial .container .test1 p{
+    font-size: 1.3rem;
+}
+#testimonial .container .test1 img{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: rgb(3, 3, 82) 1px dotted;
+}
+#testimonial .container .test2{
+    padding: 10px;
+    width: 400px;
+    height: 450px;
+    border: rgb(3, 3, 82) 1px solid;
+}
+#testimonial .container .test2 h4{
+    font-size: 1.5rem;
+}
+#testimonial .container .test2 p{
+    font-size: 1.3rem;
+}
+#testimonial .container .test2 img{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: rgb(3, 3, 82) 1px dotted;
+}
+#testimonial .container .test3{
+    padding: 10px;
+    width: 400px;
+    height: 450px;
+    border: rgb(3, 3, 82) 1px solid;
+}
+#testimonial .container .test3 h4{
+    font-size: 1.5rem;
+}
+#testimonial .container .test3 p{
+    font-size: 1.3rem;
+}
+#testimonial .container .test3 img{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: rgb(3, 3, 82) 1px dotted;
+}
+
+
+/* testimonial */
+
+
+/* form */
+
+#contact{
+    margin-top: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    gap: px;
+  }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .title {
+    font-size: 28px;
+    color: rgb(3, 3, 82);
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+  }
+  
+  .title::before,.title::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: rgb(3, 3, 82);
+  }
+  
+  .title::before {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(3, 3, 82);
+  }
+  
+  .title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+  }
+  
+  .message, .signin {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .signin a {
+    color: rgb(3, 3, 82);
+  }
+  
+  .signin a:hover {
+    text-decoration: underline rgb(3, 3, 82);
+  }
+  
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form label .input:valid + span {
+    color: green;
+  }
+  
+  .submit {
+    border: none;
+    outline: none;
+    background-color: rgb(3, 3, 82);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+  }
+  
+  .submit:hover {
+    background-color: rgb(3, 3, 82);
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }
+
+/* form */
+
+/* footer */
+.footer{
+    padding: 20px 0;
+    color: #0b2241;
+    background:  #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .social-link a{
+    text-decoration: none;
+    color: #0b2241;
+  }
+  .social-link a:hover{
+    
+    color: #244e84;
+  }
+  .h3cls{
+    color: rgb(84, 60, 15);
+    border-bottom: #0b2241 3px solid;
+    width: 140px;
+    padding-bottom: 10px;
+  }
+  /* footer */
+
+
+
+
+  @media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+        color: rgb(240, 126, 126);
+    }
+    ul {
+        position: fixed;
+        width: 70%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked~ul {
+        left: 0px;
+    }
+    .hero {
+        height: calc(100vh - 80px);
+        background-size: cover;
+    }
+    .logo {
+        width: 60px;
+        padding: 0 100px;
+        padding-right: 100px;
+        position: relative;
+        right: 20%;
+    }
+
+    /* Style the banner section */
+#hero {
+    background-image: url('image/thinking3.jpg');
+    height: 50vh;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    /* padding: 100px 0; */
+}
+
+#hero h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#hero p {
+    font-size: 22px;
+    margin-top: 20px;
+    display: none;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0b2241;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.container2 {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-right: 80px;
+    padding: 0 20px;
+    color: black;
+}
+ /* Style the banner section */
+
+/* write-up */
+.write-up{
+    width: 90%;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(72, 36, 213, 0.6)); 
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+.write-up p{
+    font-size: 25px;
+}
+.write-up p::first-letter{
+    font-size: 70px;
+    color: #00a2e8;
+}
+
+/* write-up */
+
+
+/* Why-choose-us */
+#why-choose-us {
+    width: 90%;
+    margin-top: 40px;
+} 
+#why-choose-us .container{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 5px 0px 0px 30px;
+    
+}
+#why-choose-us .container .p1{
+    width: 90%;
+}
+#why-choose-us .container .p2{
+    width: 90%;
+}
+#why-choose-us .container .p3{
+    width: 90%;
+}
+#why-choose-us .container .p4{
+    width: 90%;
+}
+#why-choose-us h3{
+    color: rgb(3, 3, 82);
+    font-size: 2.5rem;
+    text-align: center;
+} 
+
+#why-choose-us .container p span{
+    color: rgb(3, 3, 82);
+    font-size: 1.9rem;
+    font-weight: 800; 
+} 
+#why-choose-us .container p{
+    color: rgb(3, 3, 82);
+    font-size: 1.5rem;
+    font-weight: 700; 
+} 
+#why-choose-us .container p{
+    color: rgb(6, 6, 6);
+    font-size: 1.5rem;
+    font-weight: 500; 
+} 
+
+/* Why-choose-us */
+
+
+/* courses */
+#courses {
+    width: 100%;
+    margin-top: 40px;
+}
+
+#courses h3{
+    color: rgb(3, 3, 82);
+    font-size: 2.5rem;
+    text-align: center;
+}
+#courses .container{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 123vh;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    justify-content: space-around;
+    background-color: rgb(157, 156, 156);
+}
+#courses .container .frontend{
+    width: 90%;
+    margin-top: 10px;
+}
+#courses .container .frontend h2{
+    color: rgb(3, 3, 82);
+    font-size: 1.7rem;
+    font-weight: 700; 
+    border-bottom: #f7f1f1 2px solid;
+    width: 200px;
+}
+#courses .container .frontend p{
+    font-size: 1.3rem;
+    font-weight: 600; 
+    padding-top: 10px;
+}
+#courses .container .frontend h4{
+    font-size: 1rem;
+    font-weight: 400; 
+}
+#courses .container .backend{
+    width: 90%;
+    margin-top: 10px;
+}
+#courses .container .backend h2{
+    color: rgb(3, 3, 82);
+    border-bottom: #f7f1f1 2px solid;
+    font-size: 1.3rem;
+    font-weight: 700; 
+    width: 450px;
+}
+#courses .container .backend p{
+    font-size: 1.3rem;
+    font-weight: 600; 
+    padding-top: 10px;
+}
+#courses .container .database{
+    width: 90%;
+    margin-top: 25px;
+}
+#courses .container .database h2{
+    color: rgb(3, 3, 82);
+    border-bottom: #f7f1f1 2px solid;
+    font-size: 1.7rem;
+    font-weight: 700; 
+    width: 200px;
+}
+#courses .container .database p{
+    font-size: 1.3rem;
+    font-weight: 600; 
+    padding-top: 10px;
+}
+#courses .container .database h4{
+    font-size: 1rem;
+    font-weight: 400; 
+}
+/* courses */
+
+/* deliverables */
+
+#deliverables{
+    width: 100%;
+    margin-top: 40px;
+}
+
+#deliverables h3{
+    color: rgb(3, 3, 82);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#deliverables .container{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 5px 0px 0px 0px;
+    
+}
+#deliverables .container .p5{
+    width: 90%;
+}
+#deliverables .container .p6{
+    width: 90%;
+}
+#deliverables .container .p7{
+    width: 90%;
+}
+#deliverables .container .p8{
+    width: 90%;
+}
+#deliverables h3{
+    color: rgb(3, 3, 82);
+    font-size: 2.5rem;
+    text-align: center;
+} 
+
+#deliverables .container p span{
+    color: rgb(3, 3, 82);
+    font-size: 1.8rem;
+    font-weight: 800; 
+} 
+#deliverables .container p{
+    color: rgb(6, 6, 6);
+    font-size: 1.3rem;
+    font-weight: 500; 
+} 
+
+/* deliverables */
+
+/* testimonial */
+#testimonial{
+    width: 100%;
+    margin-top: 40px; 
+}
+
+#testimonial h3{
+    color: rgb(3, 3, 82);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#testimonial .container{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+#testimonial .container .test1{
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 420px;
+    background-color: #e2d8d8;
+    border: rgb(3, 3, 82) 1px solid;
+    border-radius: 20px;
+}
+#testimonial .container .test1 h4{
+    font-size: 1.4rem;
+}
+#testimonial .container .test1 p{
+    font-size: 1.2rem;
+}
+#testimonial .container .test1 img{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: rgb(3, 3, 82) 1px dotted;
+}
+#testimonial .container .test2{
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 420px;
+    background-color: #e2d8d8;
+    border: rgb(3, 3, 82) 1px solid;
+    border-radius: 20px;
+}
+#testimonial .container .test2 h4{
+    font-size: 1.4rem;
+}
+#testimonial .container .test2 p{
+    font-size: 1.2rem;
+}
+#testimonial .container .test2 img{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: rgb(3, 3, 82) 1px dotted;
+}
+
+#testimonial .container .test3{
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 420px;
+    background-color: #e2d8d8;
+    border: rgb(3, 3, 82) 1px solid;
+    border-radius: 20px;
+}
+#testimonial .container .test3 h4{
+    font-size: 1.4rem;
+}
+#testimonial .container .test3 p{
+    font-size: 1.2rem;
+}
+#testimonial .container .test3 img{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: rgb(3, 3, 82) 1px dotted;
+}
+
+/* testimonial */
+
+/* footer */
+
+
+.footer{
+    padding: 20px 0 5px 40px;
+    color: #0b2241;
+    background:  #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .social-link a{
+    text-decoration: none;
+    color: #0b2241;
+  }
+  .social-link a:hover{
+    color: #244e84;
+  }
+  .h3cls{
+    color: rgb(84, 60, 15);
+    border-bottom: #0b2241 3px solid;
+    width: 140px;
+    padding-bottom: 10px;
+  }
+  .footer h4{
+    display: block;
+}
+  /* footer */
+
+
+
+}
